@@ -6,7 +6,7 @@ def find_missing_letter(chars):
             s = chr(ord(chars[i])+1)
     return s
  
-Solution Two:
+# Solution Two:
 def find_missing_letter(chars):
     s = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     c= 0
@@ -18,5 +18,4 @@ def find_missing_letter(chars):
         elif f==True:return i
     
 print(find_missing_letter(['a','b','c','d','f']))
-    
-print(find_missing_letter(['a','b','c','d','f']))
+
